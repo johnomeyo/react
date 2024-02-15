@@ -3,6 +3,7 @@
 import Card from "./Card";
 import Button from "./Button";
 import Counter from "./Counter";
+import OnChangeComponent from "./OnChange";
 function App() {
   const cars = [
     { name: "BMW", year: 2015, id: 1 },
@@ -31,6 +32,9 @@ function App() {
       <Button />
       <p></p>
       <Counter />
+      <p></p>
+      <p></p>
+<OnChangeComponent/>
     </>
   );
 }
