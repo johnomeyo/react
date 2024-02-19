@@ -6,6 +6,7 @@ import Counter from "./Counter";
 import OnChangeComponent from "./OnChange";
 import ColorPicker from "./ColorPicker";
 import UpdateObject from "./UpdateObjects";
+import UpdateArray from "./UpdateArray";
 function App() {
   const cars = [
     { name: "BMW", year: 2015, id: 1 },
@@ -39,7 +40,9 @@ function App() {
       <OnChangeComponent />
       <p></p>
       <ColorPicker />
-      <UpdateObject/>
+      <UpdateObject />
+      <br />
+      <UpdateArray />
     </>
   );
 }
