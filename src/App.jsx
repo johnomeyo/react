@@ -7,6 +7,7 @@ import OnChangeComponent from "./OnChange";
 import ColorPicker from "./ColorPicker";
 import UpdateObject from "./UpdateObjects";
 import UpdateArray from "./UpdateArray";
+import UpdateArrayOfObjects from "./UpdateArrayofObjects";
 function App() {
   const cars = [
     { name: "BMW", year: 2015, id: 1 },
@@ -43,6 +44,7 @@ function App() {
       <UpdateObject />
       <br />
       <UpdateArray />
+      <UpdateArrayOfObjects/>
     </>
   );
 }
