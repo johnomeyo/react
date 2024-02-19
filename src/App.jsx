@@ -8,6 +8,7 @@ import ColorPicker from "./ColorPicker";
 import UpdateObject from "./UpdateObjects";
 import UpdateArray from "./UpdateArray";
 import UpdateArrayOfObjects from "./UpdateArrayofObjects";
+import ToDoList from "./ToDoList";
 function App() {
   const cars = [
     { name: "BMW", year: 2015, id: 1 },
@@ -45,6 +46,8 @@ function App() {
       <br />
       <UpdateArray />
       <UpdateArrayOfObjects/>
+      <p></p>
+      <ToDoList/>
     </>
   );
 }
