@@ -4,6 +4,7 @@ import Card from "./Card";
 import Button from "./Button";
 import Counter from "./Counter";
 import OnChangeComponent from "./OnChange";
+import ColorPicker from "./ColorPicker";
 function App() {
   const cars = [
     { name: "BMW", year: 2015, id: 1 },
@@ -34,7 +35,9 @@ function App() {
       <Counter />
       <p></p>
       <p></p>
-<OnChangeComponent/>
+      <OnChangeComponent />
+      <p></p>
+      <ColorPicker />
     </>
   );
 }

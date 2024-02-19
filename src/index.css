@@ -1,4 +1,4 @@
-.card{
+.card {
   border: 1px solid black;
   border-radius: 10px;
   padding: 10px;
@@ -8,37 +8,82 @@
   text-align: center;
   display: inline-block;
 }
-.card .card-image{
+
+.card .card-image {
   margin-top: 20px;
   max-width: 60%;
   /* border-radius: 10px 10px 0px 0px; */
   border-radius: 70%;
 }
-.card .card-title{
+
+.card .card-title {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 50px;
   color: brown;
 }
-.counter-container{
-text-align: center;
-font-family: Arial, Helvetica, sans-serifserif;
+
+.counter-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serifserif;
 
 }
-.counter-display{
+
+.counter-display {
   font-size: 8em;
 }
-.counter-button{
-width: 150px;
-height: 50px;
-font-size: 1.5em;
-font-weight: bold;
-background-color: blue;
-color: white;
-border-radius: 10px;
-border: none;
-cursor: pointer;
-margin: 20px;
+
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 20px;
 }
-.counter-button:hover{
+
+.counter-button:hover {
   background-color: rgba(29, 63, 213, 0.945);
+}
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid gray;
+  border-radius: 20px solid;
+  margin-bottom: 20px;
+  transition: 0.25s ease;
+}
+
+.color-display p {
+  color: brown;
+  font-size: 2rem;
+  text-align: center;
+}
+
+label {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+input[type="color"] {
+  width: 75px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid;
+  color: grey;
+
 }
