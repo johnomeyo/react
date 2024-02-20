@@ -9,6 +9,7 @@ import UpdateObject from "./UpdateObjects";
 import UpdateArray from "./UpdateArray";
 import UpdateArrayOfObjects from "./UpdateArrayofObjects";
 import ToDoList from "./ToDoList";
+import UseEffectComponent from "./UseEffect";
 function App() {
   const cars = [
     { name: "BMW", year: 2015, id: 1 },
@@ -48,6 +49,8 @@ function App() {
       <UpdateArrayOfObjects/>
       <p></p>
       <ToDoList/>
+      <br />
+      <UseEffectComponent/>
     </>
   );
 }
